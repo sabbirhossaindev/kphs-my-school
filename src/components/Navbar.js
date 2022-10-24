@@ -28,7 +28,7 @@ const Navbar = () => {
       <img className='logo' src={logo} alt="" />
         <span className='ml-3 text-xl'>KPHS</span>
       </Link>
-        <ul className='flex items-center hidden space-x-8 lg:flex'>
+        <ul className='flex items-center md:hidden hidden space-x-8 lg:flex'>
           <li><Link to='/home' className='mr-5 hover:text-gray-900'>Home</Link></li>
 
             {user?.email ? (
